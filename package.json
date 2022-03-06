@@ -1,0 +1,35 @@
+{
+  "name": "timestamp",
+  "version": "1.0.0",
+  "description": "A timestamp microservice with a simple UI to send and recieve data through it",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Basem98/timestamp.git"
+  },
+  "keywords": [
+    "timestamp",
+    "microservice",
+    "backend",
+    "frontend",
+    "fcc",
+    "javascript",
+    "practice"
+  ],
+  "author": "Basem Mostafa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Basem98/timestamp/issues"
+  },
+  "homepage": "https://github.com/Basem98/timestamp#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
