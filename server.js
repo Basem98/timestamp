@@ -1,5 +1,8 @@
 const express = require('express');
+const dotenv = require('dotenv');
+
 const server = express();
+dotenv.config('./.env');
 
 
 
