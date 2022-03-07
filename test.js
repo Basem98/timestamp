@@ -12,7 +12,7 @@ describe('Date Validation', () => {
     expect(isProperDate('12-05-2015')).toEqual(new Date('12-05-2015'));
   });
 
-  test('Should return a proper Date object of the current date if the passed input is an empty string', () => {
+  test('Should return a proper Date object of the current date if the passed input is a falsy value', () => {
     const currentDate = new Date();
     expect(isProperDate(null)).toEqual(currentDate);
   });
